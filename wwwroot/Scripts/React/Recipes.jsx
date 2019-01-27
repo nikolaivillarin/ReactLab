@@ -1,3 +1,5 @@
+// import PropTypes from 'prop-types';
+
 var data = [
     {
         "name": "Baked Salmon"
@@ -67,7 +69,43 @@ const Recipe = ({ name, ingredients, steps }) =>
                 )
             }
         </section>
+        {/* <section className="summary">
+            <summary ingredients={ingredients} steps={steps} title={name} />
+        </section> */}
     </section>
+
+// class Summary extends React.Component {
+//     render() {
+//         const { ingredients, steps, title } = this.props;
+
+//         return (
+//             <div className="summary">
+//                 <h1>{title}</h1>
+//                 <p>
+//                     <span>{ingredients} Ingredients | </span>
+//                     <span>{steps} Steps</span>
+//                 </p>
+//             </div>
+//         );
+//     }
+// }
+
+// Summary.propTypes = {
+//     ingredient: PropTypes.number,
+//     steps: PropTypes.number,
+//     title: (props, propName) => 
+//         (typeof props[propName] !== 'string') ?
+//             new Error('A title must be a string') :
+//                 (props[propName].length > 20) ?
+//                     new Error('title is over 20 characters') :
+//                         null
+// };
+
+// Summary.defaultProps = {
+//     ingredient: 0,
+//     steps: 0,
+//     title: '[recipe]'
+// }
 
 ReactDOM.render(
     <Menu recipes={data} title="Delicious Recipes" />

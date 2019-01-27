@@ -13,5 +13,10 @@ namespace ReactLab.Controllers
         {
             return View();
         }
+
+        public IActionResult Refs()
+        {
+            return View();
+        }
     }
 }
