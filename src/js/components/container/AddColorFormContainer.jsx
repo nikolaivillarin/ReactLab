@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 class AddColorForm extends Component {
@@ -43,13 +42,13 @@ AddColorForm.defaultProps = {
     onNewColor: f => f
 };
 
-const wrapper = document.getElementById("create-article-form");
+// const wrapper = document.getElementById("create-article-form");
 
-const logColor = (title, color) => { 
-    console.log(`TODO: add new ${title} and ${color} to the list`);
-    console.log(`TODO: render UI with new Color`);
-};
+// const logColor = (title, color) => { 
+//     console.log(`TODO: add new ${title} and ${color} to the list`);
+//     console.log(`TODO: render UI with new Color`);
+// };
 
-wrapper ? ReactDOM.render(<AddColorForm onNewColor={logColor} />, wrapper) : false;
+// wrapper ? ReactDOM.render(<AddColorForm onNewColor={logColor} />, wrapper) : false;
 
 export default AddColorForm;
