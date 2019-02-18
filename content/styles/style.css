@@ -22,3 +22,8 @@
 .star.selected {
     background-color: red;
 }
+
+.color {
+  display: block;
+  height: 100px;
+}
