@@ -1,9 +1,9 @@
 .star {
     cursor: pointer;
+    display: inline-block;
     height: 25px;
     width: 25px;
     margin: 2px;
-    float: left;
     background-color: grey;
     clip-path: polygon(
       50% 0,
@@ -21,6 +21,13 @@
 
 .star.selected {
     background-color: red;
+}
+
+.colors {
+  border: 1px solid #333;
+  margin-bottom: 2em;
+  overflow: hidden;
+  text-align: center;
 }
 
 .color {
