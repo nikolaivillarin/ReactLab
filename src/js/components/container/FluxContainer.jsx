@@ -6,7 +6,9 @@ import ReactDOM from 'react-dom';
 //#region View
 const Countdown = ({ count, tick, reset }) => {
     if (count) {
-        setTimeout(() => tick(), 1000);
+        setTimeout(function(){
+            tick();
+        }, 1000);
     }
 
     return (count) ?
