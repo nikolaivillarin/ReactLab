@@ -8,4 +8,11 @@
 // import FormContainer from "./js/components/container/HistorySkiingContainer.jsx";
 // import FormContainer from "./js/components/container/HOCContainer.jsx";
 // import FormContainer from "./js/components/container/ClockContainer.jsx";
-import FormContainer from "./js/components/container/FluxContainer.jsx";
+// import FormContainer from "./js/components/container/FluxContainer.jsx";
+// import FormContainer from "./js/store/ColorStore.jsx";
+import FormContainer from "./js/store/StoreFactory.jsx";
+
+// React Redux Example
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from "./js/components/container/ColorsContainer.jsx";
