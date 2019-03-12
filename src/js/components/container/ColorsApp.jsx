@@ -1,3 +1,4 @@
+import React from 'react';
 import AddColorForm from './AddColorFormContainer.jsx';
 import ColorList from '../presentational/ReduxColorList.jsx';
 import SortMenu from '../presentational/SortMenu.jsx';

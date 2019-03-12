@@ -1,4 +1,5 @@
-import { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from "prop-types";
 import Color from '../presentational/Color.jsx';
 import { rateColor, removeColor } from '../../actions/ColorActionCreator.jsx';
 import { sortFunction } from '../../../lib/array-helpers.js';

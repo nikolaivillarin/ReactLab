@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import StoreFactory from '../presentational/AddColorForm.jsx';
+import StoreFactory from '../../store/StoreFactory.jsx';
 import App from '../container/ColorsApp.jsx';
 
 const store = StoreFactory();

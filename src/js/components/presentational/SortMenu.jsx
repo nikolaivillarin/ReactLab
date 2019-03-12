@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const options = {
@@ -21,7 +22,7 @@ const SortMenu = ({ sort = "SORTED_BY_DATE", onSelect = f => f }) =>
         )}
     </nav>
 
-SortMenu.PropTypes = {
+SortMenu.propTypes = {
     sort: PropTypes.string,
     onSelect: PropTypes.func
 };

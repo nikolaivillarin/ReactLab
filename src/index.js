@@ -10,4 +10,4 @@
 // import FormContainer from "./js/components/container/ClockContainer.jsx";
 // import FormContainer from "./js/components/container/FluxContainer.jsx";
 // import FormContainer from "./js/store/ColorStore.jsx";
-import FormContainer from "./js/store/StoreFactory.jsx";
+import FormContainer from "./js/components/container/ReactReduxContainer.jsx";

@@ -1,4 +1,4 @@
-import { PropTypes, Component } from 'react';
+import PropTypes from "prop-types";
 import { addColor } from '../../actions/ColorActionCreator.jsx';
 
 const AddColorForm = ({ store }) => {
