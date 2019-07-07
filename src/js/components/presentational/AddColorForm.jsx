@@ -31,4 +31,8 @@ AddColorForm.propTypes = {
     store: PropTypes.object
 };
 
+AddColorForm.contextTypes = {
+    store: PropTypes.object
+};
+
 export default AddColorForm;
