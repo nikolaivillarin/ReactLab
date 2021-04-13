@@ -1,4 +1,1 @@
-# Compiled Source #
-###################
-obj/*
-bin/*
+node_modules
